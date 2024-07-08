@@ -4,35 +4,56 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1ce78f4f-50fc-4dd3-a259-f587f20a99bb" name="변경" comment="init">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/store/buzzbook/corebatch/Main.java" beforeDir="false" />
+    <list default="true" id="dc58be1d-13d9-483a-9499-c2bba2fca91e" name="변경" comment="회원 기본설정">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="Interface" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory">{
-  &quot;lastFilter&quot;: {
-    &quot;state&quot;: &quot;OPEN&quot;,
-    &quot;assignee&quot;: &quot;Heldennar&quot;
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "Heldennar"
   }
-}</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/nhnacademy-be6-AA/buzz-core-batch.git&quot;,
-    &quot;accountId&quot;: &quot;1ed355dc-d385-45d9-908f-026fdd7e3380&quot;
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/nhnacademy-be6-AA/buzz-core-batch.git",
+    "accountId": "1ed355dc-d385-45d9-908f-026fdd7e3380"
   }
-}</component>
+}]]></component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHomeTypeForPersistence" value="WRAPPER" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="PerforceDirect.Settings">
+    <option name="CHARSET" value="없음" />
+  </component>
   <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: 8
+  &quot;associatedIndex&quot;: 1
 }</component>
-  <component name="ProjectId" id="2ixlZNxRGvNN4F25RRa4HEa3g30" />
+  <component name="ProjectId" id="2ixmbf5i8IqRb3p2s2ZfAOuFGlv" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -44,19 +65,31 @@
     "SONARLINT_PRECOMMIT_ANALYSIS": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "H:/JAVA/buzz-batch",
+    "last_opened_file_path": "H:/JAVA/buzz-core-batch",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "SDK",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="H:\JAVA\core-batch\src\main\java\store\buzzbook\corebatch" />
+      <recent name="H:\JAVA\core-batch\src\main\resources" />
+      <recent name="H:\JAVA\core-batch\src\main\java\store\buzzbook\corebatch\entity" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="CoreBatchApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="corebatch" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="store.buzzbook.corebatch.CoreBatchApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -68,57 +101,50 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="애플리케이션 수준" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="디폴트 작업">
-      <changelist id="1ce78f4f-50fc-4dd3-a259-f587f20a99bb" name="변경" comment="" />
-      <created>1720440166326</created>
+      <changelist id="dc58be1d-13d9-483a-9499-c2bba2fca91e" name="변경" comment="" />
+      <created>1720440676867</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1720440166326</updated>
-      <workItem from="1720440167400" duration="98000" />
-      <workItem from="1720440337370" duration="339000" />
+      <updated>1720440676867</updated>
+      <workItem from="1720440677926" duration="1803000" />
+      <workItem from="1720449778218" duration="11000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <option name="closed" value="true" />
-      <created>1720440233671</created>
+      <created>1720440849551</created>
       <option name="number" value="00001" />
       <option name="presentableId" value="LOCAL-00001" />
       <option name="project" value="LOCAL" />
-      <updated>1720440233671</updated>
+      <updated>1720440849551</updated>
     </task>
-    <task id="LOCAL-00002" summary="init">
+    <task id="LOCAL-00002" summary="회원 기본설정">
       <option name="closed" value="true" />
-      <created>1720440248810</created>
+      <created>1720441616050</created>
       <option name="number" value="00002" />
       <option name="presentableId" value="LOCAL-00002" />
       <option name="project" value="LOCAL" />
-      <updated>1720440248810</updated>
+      <updated>1720441616050</updated>
     </task>
-    <task id="LOCAL-00003" summary="init">
-      <option name="closed" value="true" />
-      <created>1720440341706</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1720440341706</updated>
-    </task>
-    <task id="LOCAL-00004" summary="init">
-      <option name="closed" value="true" />
-      <created>1720440364445</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1720440364445</updated>
-    </task>
-    <option name="localTasksCounter" value="5" />
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
-    <ignored-roots>
-      <path value="$PROJECT_DIR$/.." />
-    </ignored-roots>
     <MESSAGE value="init" />
-    <option name="LAST_COMMIT_MESSAGE" value="init" />
+    <MESSAGE value="회원 기본설정" />
+    <option name="LAST_COMMIT_MESSAGE" value="회원 기본설정" />
   </component>
 </project>

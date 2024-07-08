@@ -1,0 +1,83 @@
+spring:
+  application:
+    name: core-batch
+
+
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://133.186.241.167:3306/be6_aa_coupon_dev?useSSL=false&characterEncoding=UTF-8&serverTimezone=UTC
+    username: be6_aa
+    password: 6@H(77fpCZDiC6!!
+    type: org.apache.commons.dbcp2.BasicDataSource
+    initial-size: 3
+    max-total: 5
+    max-idle: 3
+    min-idle: 1
+
+  jpa:
+    database: mysql
+    database-platform: org.hibernate.dialect.MySQL8Dialect
+    hibernate:
+      ddl-auto: none
+    generate-ddl: false
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true
+
+  batch:
+    jdbc:
+      initialize-schema: ALWAYS
+
+api:
+  gateway:
+    host: localhost
+    port: 8080
+
+eureka:
+  instance:
+    instance-id: batch-api
+    hostname: localhost
+    prefer-ip-address: true
+  client:
+    fetch-registry: true
+    register-with-eureka: true
+    service-url:
+      defaultZone: http://admin:1234@localhost:8761/eureka
+
+schedule:
+  expire:
+    coupon:
+      cron: 0/10 * * * * ?
+  birthday:
+    coupon:
+      cron: 0/15 * * * * ?
+
+
+
+management:
+  health:
+    status:
+      order: DOWN, UP
+  endpoint:
+    jolokia:
+      enabled: true
+    metrics:
+      enabled: true
+    pause:
+      enabled: true
+    resume:
+      enabled: true
+    restart:
+      enabled: true
+    shutdown:
+      enabled: true
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+  info:
+    env:
+      enabled: true
+server:
+  port: 9090
