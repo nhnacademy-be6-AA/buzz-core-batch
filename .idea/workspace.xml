@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dc58be1d-13d9-483a-9499-c2bba2fca91e" name="변경" comment="feat : 유저 등급 자동 변경 완성">
+    <list default="true" id="dc58be1d-13d9-483a-9499-c2bba2fca91e" name="변경" comment="fix : querydsl 삭제">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/store/buzzbook/corebatch/common/config/QuerydslConfig.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -124,7 +123,7 @@
       <updated>1720440676867</updated>
       <workItem from="1720440677926" duration="1803000" />
       <workItem from="1720449778218" duration="61000" />
-      <workItem from="1720483564533" duration="16917000" />
+      <workItem from="1720483564533" duration="17036000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <option name="closed" value="true" />
@@ -166,7 +165,15 @@
       <option name="project" value="LOCAL" />
       <updated>1720514276726</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="fix : querydsl 삭제">
+      <option name="closed" value="true" />
+      <created>1720514372702</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1720514372702</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -188,6 +195,7 @@
     <MESSAGE value="init" />
     <MESSAGE value="build : 시크릿 키 매니저" />
     <MESSAGE value="feat : 유저 등급 자동 변경 완성" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat : 유저 등급 자동 변경 완성" />
+    <MESSAGE value="fix : querydsl 삭제" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix : querydsl 삭제" />
   </component>
 </project>
