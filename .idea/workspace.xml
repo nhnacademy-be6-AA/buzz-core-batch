@@ -4,15 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dc58be1d-13d9-483a-9499-c2bba2fca91e" name="변경" comment="init">
-      <change afterPath="$PROJECT_DIR$/src/main/java/store/buzzbook/corebatch/common/config/MySQLProperties.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/store/buzzbook/corebatch/common/dto/Body.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/store/buzzbook/corebatch/common/dto/SecretResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application-prod.yml" afterDir="false" />
+    <list default="true" id="dc58be1d-13d9-483a-9499-c2bba2fca91e" name="변경" comment="build : 시크릿 키 매니저">
+      <change afterPath="$PROJECT_DIR$/src/main/java/store/buzzbook/corebatch/common/config/QuerydslConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/store/buzzbook/corebatch/common/exception/EmptyGradeTableException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/store/buzzbook/corebatch/dto/user/UserRealBill.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/store/buzzbook/corebatch/dto/user/UserRealBillInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/store/buzzbook/corebatch/dto/user/UserRealBillInfoDetail.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/store/buzzbook/corebatch/entity/payment/BillStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/store/buzzbook/corebatch/service/user/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/store/buzzbook/corebatch/service/user/UserServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/store/buzzbook/corebatch/common/config/DataSourceConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/store/buzzbook/corebatch/common/config/DataSourceConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/store/buzzbook/corebatch/adapter/UserAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/store/buzzbook/corebatch/adapter/UserAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/store/buzzbook/corebatch/common/config/SchedulerConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/store/buzzbook/corebatch/common/config/SchedulerConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/store/buzzbook/corebatch/job/GradeConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/store/buzzbook/corebatch/job/GradeConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/store/buzzbook/corebatch/repository/GradeRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/store/buzzbook/corebatch/repository/GradeRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application-dev.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application-prod.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application-prod.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,8 +30,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -65,11 +73,16 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SONARLINT_PRECOMMIT_ANALYSIS": "true",
+    "Spring Boot.CoreBatchApplication.executor": "Debug",
     "git-widget-placeholder": "feature/user",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/java/bookmarket/buzz-core-batch/src/main/resources",
+    "last_opened_file_path": "/Users/java/bookmarket/buzz-core-batch/src/main/java/store/buzzbook/corebatch/dto/user",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -78,20 +91,27 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/store/buzzbook/corebatch/dto/user" />
       <recent name="$PROJECT_DIR$/src/main/resources" />
       <recent name="$PROJECT_DIR$/src/main/java/store/buzzbook/corebatch/common/dto" />
       <recent name="H:\JAVA\core-batch\src\main\java\store\buzzbook\corebatch" />
       <recent name="H:\JAVA\core-batch\src\main\resources" />
-      <recent name="H:\JAVA\core-batch\src\main\java\store\buzzbook\corebatch\entity" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="store.buzzbook.corebatch.entity.payment" />
+      <recent name="store.buzzbook.corebatch.entity.order" />
       <recent name="store.buzzbook.corebatch.common.config" />
+      <recent name="store.buzzbook.corebatch.job" />
     </key>
   </component>
   <component name="RunManager">
     <configuration name="CoreBatchApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="ACTIVE_PROFILES" value="dev" />
       <module name="core-batch" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="store.buzzbook.corebatch.CoreBatchApplication" />
       <method v="2">
@@ -117,7 +137,7 @@
       <updated>1720440676867</updated>
       <workItem from="1720440677926" duration="1803000" />
       <workItem from="1720449778218" duration="61000" />
-      <workItem from="1720483564533" duration="2967000" />
+      <workItem from="1720483564533" duration="16632000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <option name="closed" value="true" />
@@ -143,7 +163,15 @@
       <option name="project" value="LOCAL" />
       <updated>1720449804434</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="build : 시크릿 키 매니저">
+      <option name="closed" value="true" />
+      <created>1720486633327</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1720486633327</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -163,6 +191,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="회원 기본설정" />
     <MESSAGE value="init" />
-    <option name="LAST_COMMIT_MESSAGE" value="init" />
+    <MESSAGE value="build : 시크릿 키 매니저" />
+    <option name="LAST_COMMIT_MESSAGE" value="build : 시크릿 키 매니저" />
   </component>
 </project>

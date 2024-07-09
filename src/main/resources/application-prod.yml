@@ -25,7 +25,7 @@ api:
 
 eureka:
   instance:
-    instance-id: batch-api
+    instance-id: core-batch-api
     hostname: eureka-server
     prefer-ip-address: true
   client:
@@ -35,12 +35,9 @@ eureka:
       defaultZone: http://admin:1234@eureka-server:8761/eureka
 
 schedule:
-  expire:
-    coupon:
-      cron: 0/10 * * * * ?
-  birthday:
-    coupon:
-      cron: 0/15 * * * * ?
+  user:
+    grading:
+      cron: 0 0 0 1 * ?
 
 nhncloud:
   keymanager:
