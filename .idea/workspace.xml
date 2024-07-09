@@ -5,8 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dc58be1d-13d9-483a-9499-c2bba2fca91e" name="변경" comment="init">
+      <change afterPath="$PROJECT_DIR$/src/main/java/store/buzzbook/corebatch/common/config/MySQLProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/store/buzzbook/corebatch/common/dto/Body.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/store/buzzbook/corebatch/common/dto/SecretResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application-prod.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/store/buzzbook/corebatch/entity/user/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/store/buzzbook/corebatch/entity/user/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/store/buzzbook/corebatch/common/config/DataSourceConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/store/buzzbook/corebatch/common/config/DataSourceConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application-dev.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,27 +35,24 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "Heldennar"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Heldennar&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/nhnacademy-be6-AA/buzz-core-batch.git",
-    "accountId": "1ed355dc-d385-45d9-908f-026fdd7e3380"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/nhnacademy-be6-AA/buzz-core-batch.git&quot;,
+    &quot;accountId&quot;: &quot;1ed355dc-d385-45d9-908f-026fdd7e3380&quot;
   }
-}]]></component>
+}</component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
         <option name="mavenHomeTypeForPersistence" value="WRAPPER" />
       </MavenGeneralSettings>
     </option>
-  </component>
-  <component name="PerforceDirect.Settings">
-    <option name="CHARSET" value="없음" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 1
@@ -64,9 +67,9 @@
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SONARLINT_PRECOMMIT_ANALYSIS": "true",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "feature/user",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "H:/JAVA/buzz-core-batch",
+    "last_opened_file_path": "/Users/java/bookmarket/buzz-core-batch/src/main/resources",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -77,14 +80,19 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources" />
+      <recent name="$PROJECT_DIR$/src/main/java/store/buzzbook/corebatch/common/dto" />
       <recent name="H:\JAVA\core-batch\src\main\java\store\buzzbook\corebatch" />
       <recent name="H:\JAVA\core-batch\src\main\resources" />
       <recent name="H:\JAVA\core-batch\src\main\java\store\buzzbook\corebatch\entity" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="store.buzzbook.corebatch.common.config" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="CoreBatchApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
-      <module name="corebatch" />
+      <module name="core-batch" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="store.buzzbook.corebatch.CoreBatchApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -94,8 +102,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.17890.1" />
-        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-IU-241.17890.1" />
+        <option value="bundled-jdk-9f38398b9061-18abd8497189-intellij.indexing.shared.core-IU-241.14494.240" />
+        <option value="bundled-js-predefined-1d06a55b98c1-74d2a5396914-JavaScript-IU-241.14494.240" />
       </set>
     </attachedChunks>
   </component>
@@ -109,6 +117,7 @@
       <updated>1720440676867</updated>
       <workItem from="1720440677926" duration="1803000" />
       <workItem from="1720449778218" duration="61000" />
+      <workItem from="1720483564533" duration="2967000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <option name="closed" value="true" />
