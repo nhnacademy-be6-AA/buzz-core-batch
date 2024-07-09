@@ -4,23 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dc58be1d-13d9-483a-9499-c2bba2fca91e" name="변경" comment="build : 시크릿 키 매니저">
-      <change afterPath="$PROJECT_DIR$/src/main/java/store/buzzbook/corebatch/common/config/QuerydslConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/store/buzzbook/corebatch/common/exception/EmptyGradeTableException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/store/buzzbook/corebatch/dto/user/UserRealBill.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/store/buzzbook/corebatch/dto/user/UserRealBillInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/store/buzzbook/corebatch/dto/user/UserRealBillInfoDetail.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/store/buzzbook/corebatch/entity/payment/BillStatus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/store/buzzbook/corebatch/service/user/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/store/buzzbook/corebatch/service/user/UserServiceImpl.java" afterDir="false" />
+    <list default="true" id="dc58be1d-13d9-483a-9499-c2bba2fca91e" name="변경" comment="feat : 유저 등급 자동 변경 완성">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/store/buzzbook/corebatch/adapter/UserAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/store/buzzbook/corebatch/adapter/UserAdapter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/store/buzzbook/corebatch/common/config/SchedulerConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/store/buzzbook/corebatch/common/config/SchedulerConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/store/buzzbook/corebatch/job/GradeConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/store/buzzbook/corebatch/job/GradeConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/store/buzzbook/corebatch/repository/GradeRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/store/buzzbook/corebatch/repository/GradeRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application-dev.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application-prod.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application-prod.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/store/buzzbook/corebatch/common/config/QuerydslConfig.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -137,7 +124,7 @@
       <updated>1720440676867</updated>
       <workItem from="1720440677926" duration="1803000" />
       <workItem from="1720449778218" duration="61000" />
-      <workItem from="1720483564533" duration="16632000" />
+      <workItem from="1720483564533" duration="16917000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <option name="closed" value="true" />
@@ -171,7 +158,15 @@
       <option name="project" value="LOCAL" />
       <updated>1720486633327</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="feat : 유저 등급 자동 변경 완">
+      <option name="closed" value="true" />
+      <created>1720514276726</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1720514276726</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -192,6 +187,7 @@
     <MESSAGE value="회원 기본설정" />
     <MESSAGE value="init" />
     <MESSAGE value="build : 시크릿 키 매니저" />
-    <option name="LAST_COMMIT_MESSAGE" value="build : 시크릿 키 매니저" />
+    <MESSAGE value="feat : 유저 등급 자동 변경 완성" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat : 유저 등급 자동 변경 완성" />
   </component>
 </project>
