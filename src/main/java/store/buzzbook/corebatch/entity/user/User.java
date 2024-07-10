@@ -22,6 +22,7 @@ import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
+import store.buzzbook.corebatch.dto.user.UserStatusInfo;
 
 @Builder
 @Getter
@@ -79,4 +80,8 @@ public class User {
 	@Column(name = "is_admin")
 	@ColumnDefault("false")
 	private boolean isAdmin;
+
+	public void dormant(){
+		this.status = UserStatus.DORMANT;
+	}
 }

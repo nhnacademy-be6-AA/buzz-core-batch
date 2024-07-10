@@ -17,6 +17,7 @@ import lombok.RequiredArgsConstructor;
 public class SchedulerConfig {
 	private final JobLauncher jobLauncher;
 	private final Job gradeChangeJob;
+	private final Job userStatusChangeJob;
 
 	@Scheduled(cron = "${schedule.user.grading.cron}")
 	public void userGradingJob() throws JobExecutionException {
@@ -25,6 +26,15 @@ public class SchedulerConfig {
 			.toJobParameters();
 
 		jobLauncher.run(gradeChangeJob, jobParameters);
+	}
+
+	@Scheduled(cron = "${schedule.user.status.cron}")
+	public void userStatusChangeJob() throws JobExecutionException {
+		JobParameters jobParameters = new JobParametersBuilder()
+			.addLong("user-status-change-job-execution-time", System.currentTimeMillis())
+			.toJobParameters();
+
+		jobLauncher.run(userStatusChangeJob, jobParameters);
 	}
 
 }

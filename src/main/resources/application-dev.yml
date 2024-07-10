@@ -38,6 +38,9 @@ schedule:
   user:
     grading:
       cron: 0 0/1 * * * ?
+    status:
+      cron: 0 0/1 * * * ?
+      limit: 3
 
 nhncloud:
   keymanager:
