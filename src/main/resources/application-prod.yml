@@ -37,7 +37,10 @@ eureka:
 schedule:
   user:
     grading:
-      cron: 0 0 0 1 * ?
+      cron: 0 0/5 * * * ?
+    status:
+      cron: 0 0/5 * * * ?
+      limit: 3
 
 nhncloud:
   keymanager:
