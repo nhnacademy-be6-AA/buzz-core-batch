@@ -41,6 +41,9 @@ schedule:
     status:
       cron: 0 0/5 * * * ?
       limit: 3
+  order:
+    shipped:
+      cron: 0 0 12 * * ?
 
 nhncloud:
   keymanager:
