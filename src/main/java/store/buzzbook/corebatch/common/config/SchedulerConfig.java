@@ -18,6 +18,7 @@ public class SchedulerConfig {
 	private final JobLauncher jobLauncher;
 	private final Job gradeChangeJob;
 	private final Job userStatusChangeJob;
+	private final Job orderDetailChangeJob;
 
 	@Scheduled(cron = "${schedule.user.grading.cron}")
 	public void userGradingJob() throws JobExecutionException {
@@ -37,4 +38,12 @@ public class SchedulerConfig {
 		jobLauncher.run(userStatusChangeJob, jobParameters);
 	}
 
+	@Scheduled(cron = "${schedule.order.shipped.cron}")
+	public void orderDetailChangeJob() throws JobExecutionException {
+		JobParameters jobParameters = new JobParametersBuilder()
+			.addLong("order-detail-status-change-job-execution-time", System.currentTimeMillis())
+			.toJobParameters();
+
+		jobLauncher.run(orderDetailChangeJob, jobParameters);
+	}
 }
