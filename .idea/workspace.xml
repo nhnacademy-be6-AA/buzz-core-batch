@@ -6,8 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="dc58be1d-13d9-483a-9499-c2bba2fca91e" name="변경" comment="fix : querydsl 삭제">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/store/buzzbook/corebatch/common/config/SchedulerConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/store/buzzbook/corebatch/common/config/SchedulerConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application-dev.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -129,7 +127,7 @@
       <workItem from="1720483564533" duration="17036000" />
       <workItem from="1720569583325" duration="4000" />
       <workItem from="1720614961026" duration="1658000" />
-      <workItem from="1720759282428" duration="6850000" />
+      <workItem from="1720759282428" duration="8827000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <option name="closed" value="true" />
