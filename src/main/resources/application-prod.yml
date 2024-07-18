@@ -43,7 +43,7 @@ schedule:
       limit: 3
   order:
     shipped:
-      cron: 0 0 12 * * ?
+      cron: 0 0/5 * * * ?
 
 nhncloud:
   keymanager:
