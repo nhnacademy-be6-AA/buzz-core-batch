@@ -84,7 +84,7 @@ public class OrderConfig {
 	@Bean
 	public ItemProcessor<OrderDetail, OrderDetail> orderDetailItemProcessor() {
 		return orderDetail -> {
-			if (isCreatedBeforeDays(orderDetail.getUpdateAt(), SHIPPING_OUT_DAYS)) {
+			if (isUpdatedBeforeDays(orderDetail.getUpdateAt(), SHIPPING_OUT_DAYS)) {
 				orderDetail.changeOrderStatus(orderStatusRepository.findByName(SHIPPED));
 			}
 
@@ -92,9 +92,9 @@ public class OrderConfig {
 		};
 	}
 
-	private static boolean isCreatedBeforeDays(LocalDateTime createAt, int sub) {
-		LocalDateTime daysAgo = LocalDateTime.now().minus(sub, ChronoUnit.DAYS);
-		return createAt.isBefore(daysAgo);
+	private static boolean isUpdatedBeforeDays(LocalDateTime updateAt, int days) {
+		LocalDateTime daysAgo = LocalDateTime.now().minus(days, ChronoUnit.DAYS);
+		return updateAt.isBefore(daysAgo);
 	}
 
 	@StepScope
